@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+#primary {
+  display: flex;
+  justify-content: space-between;
+  font: var(--h2);
+  color: var(--text-color-primary);
+  padding-block: 20px;
+}
+
+header nav div{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+h1 {
+  color: var(--brand-color-light);
+  font: var(--h1);
+}
+
+#secondary {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 14px;
+  font: var(--h2);
+  color: var(--text-color-secondary);
+  border-top: 1px solid var(--stroke-color);
+  border-bottom: 1px solid var(--stroke-color);
+}
