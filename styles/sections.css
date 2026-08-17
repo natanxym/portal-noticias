@@ -5,3 +5,11 @@
     border-radius: 4px;
   }
 }
+
+#weekly-reading #weekly-news{
+  img{
+    height: 160px;
+    width: 292px;
+    object-fit: cover;
+  }
+}

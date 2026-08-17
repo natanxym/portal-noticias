@@ -10,6 +10,26 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-cols-4 {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-row-2 {
+  grid-template-rows: 1fr 1fr;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-80 {
+  gap: 80px;
+}
+
 .gap-16 {
   gap: 16px;
+}
+
+.gap-8 {
+  gap: 8px;
 }
