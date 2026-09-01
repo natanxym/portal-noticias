@@ -2,6 +2,7 @@ section header {
   border-top: 1px solid var(--stroke-color);
   padding-block: 12px 24px;
   font: var(--text-span);
+  align-items: center;
 
   a {
     justify-self: end;
@@ -23,7 +24,8 @@ section header {
 }
 
 #featured {
-  padding-top: 40px;
+  grid-area: featured;
+  /* padding-top: 40px; */
   img {
     height: 100%;
     object-fit: cover;
@@ -32,12 +34,15 @@ section header {
 }
 
 #weekly {
+  grid-area: weekly;
   & > div {
     grid-template-columns: repeat(4, 292px);
   }
 
   img {
+    width: 292px;
     height: 160px;
+    object-fit: cover;
   }
 
   figure {
@@ -86,6 +91,7 @@ section header {
 }
 
 #ia {
+  grid-area: ai;
   & > div {
     gap: 32px;
   }
@@ -101,7 +107,7 @@ section header {
 
     div {
       gap: 8px;
-      div{
+      div {
         gap: 4px;
       }
     }
@@ -112,3 +118,18 @@ section header {
   }
 }
 
+#more {
+  h3 {
+    margin-top: 8px;
+  }
+
+  img {
+    width: 72px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+}
+
+aside {
+  grid-area: aside;
+}
